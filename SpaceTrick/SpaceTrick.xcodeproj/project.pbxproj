@@ -14,6 +14,7 @@
 		75A82D731E7EC9D4005B31EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A82D721E7EC9D4005B31EA /* Assets.xcassets */; };
 		75A82D761E7EC9D4005B31EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A82D741E7EC9D4005B31EA /* LaunchScreen.storyboard */; };
 		75A82D811E7EC9D4005B31EA /* SpaceTrickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A82D801E7EC9D4005B31EA /* SpaceTrickTests.swift */; };
+		75A82D8C1E7ECAB1005B31EA /* GameViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A82D8B1E7ECAB1005B31EA /* GameViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		75A82D7C1E7EC9D4005B31EA /* SpaceTrickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTrickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A82D801E7EC9D4005B31EA /* SpaceTrickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTrickTests.swift; sourceTree = "<group>"; };
 		75A82D821E7EC9D4005B31EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A82D8B1E7ECAB1005B31EA /* GameViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				75A82D721E7EC9D4005B31EA /* Assets.xcassets */,
 				75A82D741E7EC9D4005B31EA /* LaunchScreen.storyboard */,
 				75A82D771E7EC9D4005B31EA /* Info.plist */,
+				75A82D8B1E7ECAB1005B31EA /* GameViewController2.swift */,
 			);
 			path = SpaceTrick;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A82D6E1E7EC9D4005B31EA /* GameViewController.swift in Sources */,
+				75A82D8C1E7ECAB1005B31EA /* GameViewController2.swift in Sources */,
 				75A82D6A1E7EC9D4005B31EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
