@@ -34,7 +34,9 @@ class GameViewController: UIViewController {
     }
     
     func outputAccData(acceleration: CMAcceleration){
+        print(String(format: "X variation : %.2f", acceleration.x))
         print(String(format: "Y variation : %.2f", acceleration.y))
+        print(String(format: "Z variation : %.2f", acceleration.z))
     }
     
     
