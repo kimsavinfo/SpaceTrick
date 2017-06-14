@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757C27ED1EF1D1B900388C99 /* TutorialLevel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C27EC1EF1D1B900388C99 /* TutorialLevel1.swift */; };
+		757C27F01EF1D25A00388C99 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C27EF1EF1D25A00388C99 /* Player.swift */; };
+		757C27F31EF1D2A300388C99 /* Terrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C27F21EF1D2A300388C99 /* Terrain.swift */; };
+		757C27F51EF1D30900388C99 /* PerlinNoiseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C27F41EF1D30900388C99 /* PerlinNoiseGenerator.swift */; };
+		757C27F81EF1D47A00388C99 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C27F71EF1D47A00388C99 /* Tools.swift */; };
 		75A82D6A1E7EC9D4005B31EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A82D691E7EC9D4005B31EA /* AppDelegate.swift */; };
 		75A82D6C1E7EC9D4005B31EA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A82D6B1E7EC9D4005B31EA /* art.scnassets */; };
 		75A82D711E7EC9D4005B31EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A82D6F1E7EC9D4005B31EA /* Main.storyboard */; };
@@ -16,6 +21,7 @@
 		75C968121EF1C7D30027B0AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C968101EF1C7D30027B0AB /* GameViewController.swift */; };
 		75C968131EF1C7D30027B0AB /* GameViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C968111EF1C7D30027B0AB /* GameViewController2.swift */; };
 		75C968161EF1C81A0027B0AB /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C968151EF1C81A0027B0AB /* Accelerometer.swift */; };
+		75D47D681EF1D530006E38BE /* TutorialLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D47D671EF1D530006E38BE /* TutorialLevel2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		757C27EC1EF1D1B900388C99 /* TutorialLevel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialLevel1.swift; path = TutorialLevel/TutorialLevel1.swift; sourceTree = "<group>"; };
+		757C27EF1EF1D25A00388C99 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Player/Player.swift; sourceTree = "<group>"; };
+		757C27F21EF1D2A300388C99 /* Terrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Terrain.swift; path = Terrain/Terrain.swift; sourceTree = "<group>"; };
+		757C27F41EF1D30900388C99 /* PerlinNoiseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerlinNoiseGenerator.swift; path = Terrain/PerlinNoiseGenerator.swift; sourceTree = "<group>"; };
+		757C27F71EF1D47A00388C99 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tools.swift; path = Tools/Tools.swift; sourceTree = "<group>"; };
 		75A82D661E7EC9D4005B31EA /* SpaceTrick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTrick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A82D691E7EC9D4005B31EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A82D6B1E7EC9D4005B31EA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -42,6 +53,7 @@
 		75C968101EF1C7D30027B0AB /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = Controller/GameViewController.swift; sourceTree = "<group>"; };
 		75C968111EF1C7D30027B0AB /* GameViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController2.swift; path = Controller/GameViewController2.swift; sourceTree = "<group>"; };
 		75C968151EF1C81A0027B0AB /* Accelerometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Accelerometer.swift; path = Accelerometer/Accelerometer.swift; sourceTree = "<group>"; };
+		75D47D671EF1D530006E38BE /* TutorialLevel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialLevel2.swift; path = TutorialLevel/TutorialLevel2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +74,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757C27E91EF1D14B00388C99 /* TutorialLevel */ = {
+			isa = PBXGroup;
+			children = (
+				757C27EC1EF1D1B900388C99 /* TutorialLevel1.swift */,
+				75D47D671EF1D530006E38BE /* TutorialLevel2.swift */,
+			);
+			name = TutorialLevel;
+			sourceTree = "<group>";
+		};
+		757C27EE1EF1D24A00388C99 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				757C27EF1EF1D25A00388C99 /* Player.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		757C27F11EF1D29800388C99 /* Terrain */ = {
+			isa = PBXGroup;
+			children = (
+				757C27F21EF1D2A300388C99 /* Terrain.swift */,
+				757C27F41EF1D30900388C99 /* PerlinNoiseGenerator.swift */,
+			);
+			name = Terrain;
+			sourceTree = "<group>";
+		};
+		757C27F61EF1D45900388C99 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				757C27F71EF1D47A00388C99 /* Tools.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		75A82D5D1E7EC9D4005B31EA = {
 			isa = PBXGroup;
 			children = (
+				75A82D671E7EC9D4005B31EA /* Products */,
 				75A82D681E7EC9D4005B31EA /* SpaceTrick */,
 				75A82D7F1E7EC9D4005B31EA /* SpaceTrickTests */,
-				75A82D671E7EC9D4005B31EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,13 +130,17 @@
 			isa = PBXGroup;
 			children = (
 				75C968141EF1C8080027B0AB /* Accelerometer */,
-				75C9680F1EF1C7C70027B0AB /* Controller */,
 				75A82D691E7EC9D4005B31EA /* AppDelegate.swift */,
 				75A82D6B1E7EC9D4005B31EA /* art.scnassets */,
-				75A82D6F1E7EC9D4005B31EA /* Main.storyboard */,
 				75A82D721E7EC9D4005B31EA /* Assets.xcassets */,
-				75A82D741E7EC9D4005B31EA /* LaunchScreen.storyboard */,
+				75C9680F1EF1C7C70027B0AB /* Controller */,
 				75A82D771E7EC9D4005B31EA /* Info.plist */,
+				75A82D741E7EC9D4005B31EA /* LaunchScreen.storyboard */,
+				75A82D6F1E7EC9D4005B31EA /* Main.storyboard */,
+				757C27EE1EF1D24A00388C99 /* Player */,
+				757C27F11EF1D29800388C99 /* Terrain */,
+				757C27F61EF1D45900388C99 /* Tools */,
+				757C27E91EF1D14B00388C99 /* TutorialLevel */,
 			);
 			path = SpaceTrick;
 			sourceTree = "<group>";
@@ -228,8 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				75C968121EF1C7D30027B0AB /* GameViewController.swift in Sources */,
+				757C27F31EF1D2A300388C99 /* Terrain.swift in Sources */,
 				75C968161EF1C81A0027B0AB /* Accelerometer.swift in Sources */,
+				75D47D681EF1D530006E38BE /* TutorialLevel2.swift in Sources */,
 				75C968131EF1C7D30027B0AB /* GameViewController2.swift in Sources */,
+				757C27F51EF1D30900388C99 /* PerlinNoiseGenerator.swift in Sources */,
+				757C27ED1EF1D1B900388C99 /* TutorialLevel1.swift in Sources */,
+				757C27F81EF1D47A00388C99 /* Tools.swift in Sources */,
+				757C27F01EF1D25A00388C99 /* Player.swift in Sources */,
 				75A82D6A1E7EC9D4005B31EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
